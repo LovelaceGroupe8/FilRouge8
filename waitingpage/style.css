@@ -1,0 +1,89 @@
+.contact{
+    background-color: #5eb266;
+}
+.adresse{
+    display: inline-block;
+    padding-right: 500px;
+}
+.socialnetwork{
+    display: inline-block;
+}
+.imagegif{
+    display: inline-block;
+    padding-top: 100px;
+    padding-left: 50px;
+   
+
+}
+.textinfo{
+    display: inline-block;
+    
+}
+.formdiv{
+    display: inline-block;
+    padding-bottom: 400px;
+    padding-left: 1000px;
+    margin-top: -250px;
+     
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    font-size: 120%;
+    padding-left: 50px;
+}
+.textrime{
+    font-family: cursive;
+    padding-left: 50px;
+    font-size: 120%;
+
+}
+.btn-btn-success:hover{
+    height: 120%;
+    width: 110%;
+}
+.maindiv{
+    background-image: url("./background.svg");
+}
+img{
+    height: 50%;
+    width: 50%;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 460px) {
+
+    .maindiv {
+      height: 70%;
+      width: 90%;
+      margin-top: 20%;
+      min-width: 0;
+    }
+  
+    .formdiv {
+      width: 70%;
+      font-size: 200%;
+      margin: 0 auto;
+    }
+  
+    .textrime {
+      margin-top: 10%;
+    }
+  
+  
+    .btn-btn-success {
+      width: 80%;
+      font-size: 100%;
+      margin: 0 auto;
+      color: white;
+    }
+  
+    .textinfo {
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+  
+    .contact {
+      font-size: 120%;
+    }
+  }
