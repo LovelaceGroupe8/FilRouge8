@@ -5,7 +5,7 @@
     <title>connection</title>
   </head>
   <body>
-    <form class="connection" action="connection.php" method="post">
+    <form class="connection" action="Connexion.php" method="post">
       <label>Votre pseudo :
         <input type="text" name="pseudo" placeholder="Votre Pseudo">
       </label>
